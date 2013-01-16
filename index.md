@@ -11,13 +11,13 @@
 This workshop will give you an introduction to building a relatively simple Java applications with the Play framework, deploying the application to Heroku.
 
 * [Chapter 1: Getting Started with Java & Play on Heroku](#chapter1)
-* [Chapter 2: Building a RESTful API](#chapter2)
-* [Chapter 3: Integrating with Force.com](#chapter3)
-* [Chapter 4: Distributed Sessions on Heroku](#chapter4)
-* [Chapter 5: Real-time Push notifications](#chapter5)
+* [Chapter 2: ](#chapter2)
+* [Chapter 3: ](#chapter3)
+* [Chapter 4: ](#chapter4)
+* [Chapter 5: ](#chapter5)
 * [Chapter 6: Performance Monitoring with New Relic](#chapter6)
 * [Chapter 7: Searching Logs with Papertrail](#chapter7)
-* [Appendix A: Further Learning](#appendix-a)
+* [Appendix A: Where to go next](#appendix-a)
 
 
 Prerequisites
@@ -65,9 +65,13 @@ Download the latest 2.0 RC version and extract the archive to a location where y
 
         Linux and MacOSX:
 
+        Add the following text to the file `~/.profile`
+
         `export PATH=$PATH:/path/to/play20`
 
-        Windows uses a global environment variable. Update the PATH in the environment variables to add the path to the Play framework folder, ensure you don’t use a path with spaces.
+        Load this updated PATH into your command line using `source ~/.profile` or open a new terminal window.
+
+        Windows uses a global environment variable. Update the PATH in the environment variables to add the path to the Play framework folder, ensure you don’t use a path with spaces. Open a new terminal to make sure the path has been updated.
 
     2. On Linux & MacOSX, make sure that the play script is executable, otherwise do a `chmod a+x play`
 
@@ -84,15 +88,43 @@ Now that everything is setup you are ready to create your first application on H
 
 Goals: In this chapter you will learn how to instantly deploy an application on Heroku using the Heroku Toolbelt.  You will also learn how to run the new application locally, make changes, and synchronize the changes with Heroku.  Then you will learn how to instantly scale your application, set configuration parameters through environment variables, and view your application's log entries.
 
-Get started:
+* Create a new play application
+
+  1. On the command line enter: `play new todolist`
+
+  The Play tool will ask you a few questions. Choose to create a simple Java application project template.
+
+  The play new command creates a new directory todolist/ as follows:
+
+    `app` contains the application’s core, split between models, controllers and views directories. This is the directory where .java source files live.
+    `conf` contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationalization.
+    `project` contains the build scripts. The build system is based on sbt. But a new play application comes with a default build script that will just works fine for our application.
+    `public` contains all the publicly available resources, which includes JavaScript, stylesheets and images directories.
+    `test` contains all the application tests. Tests can be written as JUnit tests.
+
+
+* Run the play application
+
+  Once you have an application created, you can run the Play console. Go to the new todolist/ directory and run:
+
+        $ play
+
+  This launches the Play console. There are several things you can do from the Play console, but let’s start by running the application. From the console prompt, type run:
+
+        [todolist] $ run
+
+  Now the application is running in development mode. Open a browser at [http://localhost:9000/](http://localhost:9000/)
+
+
+[Back to top...](#top)
+
+
+<a id="chapter2">Chapter 2: Version the application with Git</a>
+----------------------------------------------------------------
 
 
 
-
-<a id="chapter2">Chapter 2: Building a RESTful API</a>
-------------------------------------------------------
-
-
+[Back to top...](#top)
 
 
 
@@ -142,6 +174,9 @@ You can now browse the New Relic Dashboard:
 Explore the New Relic dashboard.  (Note: It might take a few minutes for some data to appear in the dashboard.)
 
 
+[Back to top...](#top)
+
+
 <a id="chapter7">Chapter 7: Searching Logs with Papertrail</a>
 --------------------------------------------------------------
 
@@ -172,6 +207,8 @@ You can setup Papertrail to notify you via email when new log entries matching y
 
 The next time your application has a log event that matches your search, you will receive an email notification.
 
+[Back to top...](#top)
+
 
 <a id="appendix-a">Appendix A: Further Learning</a>
 -------------------------------------------------
@@ -196,3 +233,6 @@ Integrating Java with Force.com:
 Cloud Application Architecture:
 
 * [12 Factor App](http://12factor.net)
+
+
+[Back to top...](#top)
