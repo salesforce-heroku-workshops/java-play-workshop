@@ -1,7 +1,7 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-Heroku Workshop - Java & Play framework
-=======================================
+<a id="top">Heroku Workshop - Java & Play framework</a>
+=======================================================
 
     Document Date: January 16, 2013
     Document Home: http://java-play-todo-list.herokuapp.com
@@ -75,6 +75,8 @@ Download the latest 2.0 RC version and extract the archive to a location where y
 
 
 Now that everything is setup you are ready to create your first application on Heroku.
+
+[Back to top...](#top)
 
 
 <a id="chapter1">Chapter 1: Getting Started with Java & Play on Heroku</a>
