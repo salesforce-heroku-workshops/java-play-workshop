@@ -8,7 +8,7 @@
 
 [Download the PDF](workbook.pdf)
 
-This workshop will give you an introduction to building a relatively simple Java applications with the Play framework, deploying the application to Heroku.
+This workshop will give you an introduction to building a relatively simple Java applications with the Play framework, deploying the application to Heroku.  Please read a quick [overview of Heroku](what-is-heroku.md) should you want to understand the value of this service in more detail.
 
 * [Chapter 1: Getting Started with Java & Play on Heroku](#chapter1)
 * [Chapter 2: Manage application changes with Git](#chapter2)
