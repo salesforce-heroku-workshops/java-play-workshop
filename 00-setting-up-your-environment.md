@@ -1,5 +1,4 @@
-
-# Setting up your environment
+# <a id="top">Setting up your environment</a>
 
 Before you get started you will need to have an account with Heroku, the Heroku toolbelt and a working SSH connection to Heroku:
 
@@ -57,6 +56,8 @@ Download the latest 2.0 RC version and extract the archive to a location where y
 
 
 Now that everything is setup you are ready to create your first application on Heroku.
+
+[Back to top...](#top)
 
 [Back to Workshop home](/index.html)
 

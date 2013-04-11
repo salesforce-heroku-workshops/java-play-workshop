@@ -11,9 +11,9 @@ For developers, the best way to understand the value of Heroku is to use it in a
 
 The workshop is arranged in the following sections:
 
-* [Chapter 0: Setting up Heroku & Git](setting-up-your-environment.html)
-* [Chapter 1: Getting Started with Java & Play on Heroku](#chapter1)
-* [Chapter 2: Manage application changes with Git](#chapter2)
+* [Chapter 0: Setting up your environment](setting-up-your-environment.html)
+* [Chapter 1: Create a new application with Play](create-your-app-with-play.html)
+* [Chapter 2: Manage your project changes with Git](manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](#chapter3)
 * [Chapter 4: ](#chapter4)
 * [Chapter 5: ](#chapter5)
@@ -22,116 +22,10 @@ The workshop is arranged in the following sections:
 * [Appendix A: Where to go next](#appendix-a)
 
 
-<a id="chapter1">Chapter 1: Getting Started with Java & Play on Heroku</a>
--------------------------------------------------------------------------
-
-Goals: In this chapter you will learn how to instantly deploy an application on Heroku using the Heroku Toolbelt.  You will also learn how to run the new application locally, make changes, and synchronize the changes with Heroku.  Then you will learn how to instantly scale your application, set configuration parameters through environment variables, and view your application's log entries.
-
-* Create a new play application
-
-  1. On the command line enter: `play new todolist`
-
-  The Play tool will ask you a few questions. Choose to create a simple Java application project template.
-
-  The play new command creates a new directory todolist/ as follows:
-
-    `app` contains the application’s core, split between models, controllers and views directories. This is the directory where .java source files live.
-
-    `conf` contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationalization.
-
-    `project` contains the build scripts. The build system is based on sbt. But a new play application comes with a default build script that will just works fine for our application.
-
-    `public` contains all the publicly available resources, which includes JavaScript, stylesheets and images directories.
-
-    `test` contains all the application tests. Tests can be written as JUnit tests.
-
-
-* Run the play application
-
-  Once you have an application created, you can run the Play console. Go to the new todolist/ directory and run:
-
-        $ play
-
-  This launches the Play console. There are several things you can do from the Play console, but let’s start by running the application. From the console prompt, type run:
-
-        [todolist] $ run
-
-  Now the application is running in development mode. Open a browser at [http://localhost:9000/](http://localhost:9000/)
-
-
 [Back to top...](#top)
 
+[Back to Workshop home](/index.html)
 
-<a id="chapter2">Chapter 2: Manage application changes with Git</a>
-----------------------------------------------------------------
-
-When developing software it saves so much time and hassel when you version your code.  Using distributed version control systems like Git allow you to collaborate a lot more effectively too.  You can share specific changes you are making across branches and repositories.  When using a service like Github you can also collaborate with pull requests.
-
-* Version the code with Git
-
-A git client was added when you installed the Heroku Toolbelt.  So now you need to put your project under version control and create a local repository.
-
-  1. Create (initialise) a new git repository inside your project folder
-
-    cd my-project-folder
-    git init
-
-  2. Check this worked by viewing the current status of your git repository
-
-    git status
-
-    You should see a list of files that are not currently tracked by git.
-
-  3. Add the project files to your git repository & commit the changes:
-
-    git add .
-    git commit -m "Initial Java Play project created"
-
-
-You should now have a versioned project.  Any changes you now make to these project files can be tracked by git.
-
-
-[Back to top...](#top)
-
-
-<a id="chapter6">Chapter 3: Deploy your application on Heroku </a>
-----------------------------------------------------------
-
-Now you know your app is working locally, lets upload it to Heroku so we can show it off to the world.  The world wont see it until you tell it the website address though :)
-
-  1. Create a new heroku application in the route of the project folder
-
-    heroku create
-
-  You should get an output similar to the following:
-
-    $ heroku create
-    Creating damp-sands-1586... done, stack is cedar
-    http://damp-sands-1586.herokuapp.com/ | git@heroku.com:damp-sands-1586.git
-    Git remote heroku added
-
-  You will notice that a new remote repository called heroku has been added to your git settings, this is the address of the git repository at Heroku you will upload to in order to deploy your code.  To check this you can use the command `git remote -v`.
-
-  You can also choose to specify a specific name for your application, but that name has to be unique across all Heroku applications
-
-    heroku create my-unique-app-name
-
-
-  2. Upload your project to Heroku using a standard git push
-
-    git push heroku master
-
-  Your project will now be securely coppied to the Heroku repository associated with your application and this will trigger the building, deploying and running of your application automatically.
-
-  The first time you deploy your project, your build file will be used to download all the project dependencies (external libraries), so it may take a few moments to complete.
-
-  Heroku will automatically recognise you have uploaded a Java Play framework and will know how to run it.  If you make any changes to the default way play uruns, eg. by adding different data sources then you will need to specify a Procfile to define how the application should run.  Writing a Procfile will be covered soon.
-
-  3. Check your application is running on Heroku
-
-  At any time you can open your application by loging into the heroku website and viewing your apps.  You can also open the specific application you are working on via the command line.  In your project folder, enter:
-
-    heroku open
 
 
 <a id="chapter4">Chapter 4: Developer workflow part 1 - lets get hacking</a>
