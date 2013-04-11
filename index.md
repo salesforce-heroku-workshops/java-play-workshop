@@ -3,13 +3,15 @@
 <a id="top">Heroku Workshop - Java & Play framework</a>
 =======================================================
 
-    Document Date: January 16, 2013
-    Document Home: http://java-play-todo-list.herokuapp.com
+This workshop will give you experience deploying and managing an application on Heroku, an elastic polyglot platform.
 
-[Download the PDF](workbook.pdf)
+In the workshop you will building a relatively simple Java application using the Play framework.  You will version the source code and push your code to Heroku using Git.
 
-This workshop will give you an introduction to building a relatively simple Java applications with the Play framework, deploying the application to Heroku.  Please read a quick [overview of Heroku](what-is-heroku.md) should you want to understand the value of this service in more detail.
+For developers, the best way to understand the value of Heroku is to use it in a project.  If you want to know more about the platform, please see the quick [overview of Heroku](what-is-heroku.md) and visit [How it Works]() on the [heroku website](http://www.heroku.com).
 
+The workshop is arranged in the following sections:
+
+* [Chapter 0: Setting up Heroku & Git](setting-up-your-environment.html)
 * [Chapter 1: Getting Started with Java & Play on Heroku](#chapter1)
 * [Chapter 2: Manage application changes with Git](#chapter2)
 * [Chapter 3: Deploy your application on Heroku](#chapter3)
@@ -18,69 +20,6 @@ This workshop will give you an introduction to building a relatively simple Java
 * [Chapter 6: Performance Monitoring with New Relic](#chapter6)
 * [Chapter 7: Searching Logs with Papertrail](#chapter7)
 * [Appendix A: Where to go next](#appendix-a)
-
-
-Prerequisites
--------------
-
-Before you get started you will need to have an account with Heroku, the Heroku toolbelt and a working SSH connection to Heroku:
-
-* Create an Heroku Account (if you dont already have one)
-    1. In your browser navigate to: [https://heroku.com/signup](https://heroku.com/signup)
-    2. Enter your email address
-    3. Select `Sign Up`
-    4. Check your email and navigate to the verification page
-    5. On the command line, run `heroku login` to connect to Heroku and upload your public key.  If you do not have a public key then one will be created for you.
-
-* Check network (SSH) access to heroku.com
-    1. For Linux or MacOSX, either use an SSH client or `telnet` to verify the network connectin by running one of the following in a command prompt / terminal.  On Microsoft Windows you can use a tool called [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html):
-
-            ssh -T heroku.com 22
-
-    2. If the connection is refused then you will need to ask your network administrators to open up SSH access to `heroku.com` (port 22).
-
-
-* Java SE 6 or greater:
-
-    1. Check wich version of Java you are running on the command line using `java -version`
-
-        $ java -version
-        java version "1.6.0_37"
-        Java(TM) SE Runtime Environment (build 1.6.0_37-b06-434-10M3909)
-        Java HotSpot(TM) 64-Bit Server VM (build 20.12-b01-434, mixed mode)
-
-    [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-
-* Download & install Play framework version 2:
-
-     [Download Play 2 framework](http://download.playframework.org/releases/)
-
-Download the latest 2.0 RC version and extract the archive to a location where you have both read and write access.  For example, create a ~/apps/play folder and extract the archive there.
-
-*(Play updates files within its own folder, so don’t install to /opt, /usr/local or anywhere else you’d need special permission to write to.)*
-
-* Configure Play
-
-    1. Add the folder you extracted Play framework into onto the system PATH.
-
-        Linux and MacOSX:
-
-        Add the following text to the file `~/.profile`
-
-        `export PATH=$PATH:/path/to/play20`
-
-        Load this updated PATH into your command line using `source ~/.profile` or open a new terminal window.
-
-        Windows uses a global environment variable. Update the PATH in the environment variables to add the path to the Play framework folder, ensure you don’t use a path with spaces. Open a new terminal to make sure the path has been updated.
-
-    2. On Linux & MacOSX, make sure that the play script is executable, otherwise do a `chmod a+x play`
-
-    3. Test play is working by running `play help` on the command line
-
-
-Now that everything is setup you are ready to create your first application on Heroku.
-
-[Back to top...](#top)
 
 
 <a id="chapter1">Chapter 1: Getting Started with Java & Play on Heroku</a>
@@ -455,3 +394,10 @@ http://bit.ly/fdc-dugs
 Twitter accounts & hashtags
 #forcedotcom
 #askforce
+
+
+
+
+    Document Date: January 16, 2013
+    Document Home: http://java-play-todo-list.herokuapp.com
+
