@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="top">Setting up your environment</a>
 
 Before you get started you will need to have an account with Heroku, the Heroku toolbelt and a working SSH connection to Heroku:
