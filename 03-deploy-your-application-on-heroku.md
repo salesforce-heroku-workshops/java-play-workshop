@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="top">Chapter 3: Deploy your application on Heroku </a>
 
   Now you know your app is working locally, lets upload it to Heroku so we can show it off to the world.  The world wont see it until you tell it the website address though :)

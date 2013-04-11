@@ -1,3 +1,4 @@
+<link href="index.css" rel="stylesheet" type="text/css">
 
 # <a id="chapter2">Chapter 2: Manage project changes with Git</a>
 
