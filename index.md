@@ -12,7 +12,7 @@ For developers, the best way to understand the value of Heroku is to use it in a
 The workshop is arranged in the following sections:
 
 * [Chapter 0: Setting up your environment](00-setting-up-your-environment.html)
-* [Chapter 1: Create a new application with Play](01-create-your-app-with-play.html)
+* [Chapter 1: Get started with your app](01-get-started-with-your-app.html)
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: ](#chapter4)
