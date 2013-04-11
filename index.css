@@ -1,11 +1,16 @@
 body {
   font-family: Helvetica, arial, freesans, clean, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 130%;
+  background-image:url('images/heroku-logo.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+  margin-right: 240px;
+  margin-left: 42px; 
 }
 
 body > p {
-  width: 95%;
+  width: 75%;
 }
 
 pre, code {
@@ -68,9 +73,21 @@ pre > code {
   body {
     font-family: serif;
   }
-  pre { 
+  pre {
     overflow-x: visible;
     overflow-y: visible;
     width: 98%;
   }
+}
+
+
+table
+{
+border:1px solid blue;
+border-spacing:10px 10px;
+}
+th
+{
+background-color:blue;
+color:white;
 }
