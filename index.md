@@ -11,7 +11,7 @@ For developers, the best way to understand the value of Heroku is to use it in a
 The workshop is arranged in the following sections:
 
 * [Chapter 0: Setting up your environment](00-setting-up-your-environment.html)
-* [Chapter 1: Get started with your app](01-getting-started-with-your-app.html)
+* [Chapter 1: Getting started with your app](01-getting-started-with-your-app.html)
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: ](#chapter4)
@@ -26,7 +26,7 @@ The workshop is arranged in the following sections:
 [Back to Workshop home](/index.html)
 
 
-
-    Document Date: January 16, 2013
-    Document Home: http://java-play-todo-list.herokuapp.com
+    Document Date: April 11, 2013
+    Document Home: http://java-play-workshop.herokuapp.com
+    Github repo  : https://github.com/salesforce-heroku-workshops/java-play-workshop
 
