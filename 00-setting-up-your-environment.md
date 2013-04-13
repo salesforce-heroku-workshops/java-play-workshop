@@ -51,13 +51,14 @@ Download the latest 2.0 RC version and extract the archive to a location where y
   Load this updated PATH into your command line using `source ~/.profile` or open a new terminal window.
 
   **Microsoft Windows**
+  
   Windows uses a global environment variable. Update the PATH in the environment variables to add the path to the Play framework folder, ensure you don’t use a path with spaces. Open a new terminal to make sure the path has been updated.
 
   2. On Linux & MacOSX, make sure that the play script is executable, otherwise do a `chmod a+x play`
 
   3. Test play is working by running `play help` on the command line
 
-<img src="images/00x01-play-help-first-run-output.png">
+<img src="images/00x01-play-help-first-run-output.png" width="400">
 
 Now that everything is setup you are ready to create your first application on Heroku.
 
