@@ -60,7 +60,9 @@ Download the latest 2.0 RC version and extract the archive to a location where y
 
 <a href="images/00x01-play-help-first-run-output.png"><img src="images/00x01-play-help-first-run-output.png" align="middle" width="640"></a>
 
-Now that everything is setup you are ready to create your first application on Heroku.
+  When you first run play it may download extra libraries that it needs to run, so you may need to be connected to the Iternet.
+  
+  Assuming everything went okay, you are ready to create your first Play application.
 
 [Back to top...](#top)
 
