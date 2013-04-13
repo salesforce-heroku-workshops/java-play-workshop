@@ -57,7 +57,7 @@ Download the latest 2.0 RC version and extract the archive to a location where y
 
   3. Test play is working by running `play help` on the command line
 
-<img src="">
+<img src="images/00x01-play-help-first-run-output.png">
 
 Now that everything is setup you are ready to create your first application on Heroku.
 
