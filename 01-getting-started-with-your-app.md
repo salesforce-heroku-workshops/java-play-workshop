@@ -44,7 +44,7 @@
 
   This launches the Play console and it reads the configuration of your Play project. 
 
-<img src="images/01x02-play-console.png">
+<a href="images/01x02-play-console.png"><img src="images/01x02-play-console.png" width="640">
   
   There are several things you can do from the Play console, but lets start by running the application. From the *Play console prompt*, type run:
 
@@ -64,7 +64,7 @@
 
   If there are any compilation errors you will see the result of the compilation directly in your browser.
 
-<a href="images/01x05-play-error-page.png" width="640"><img src="images/01x05-play-error-page.png"></a>
+<a href="images/01x05-play-error-page.png" width="640"><img src="images/01x05-play-error-page.png" width="640"></a>
 
 [Back to top...](#top)
 
