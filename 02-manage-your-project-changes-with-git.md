@@ -18,7 +18,6 @@
     cd my-project-folder
     git init
 
-
 2. Check this worked by viewing the current status of your git repository
 
     git status
@@ -32,6 +31,18 @@
 
 
   You should now have a versioned project.  Any changes you now make to these project files can be tracked using *git status*.
+
+## Some files dont belong in your projects
+
+  You can tell git to not include certain files, folders and name patterns, so when you do a *git add .* then these files wont be added by mistake.
+  
+  This is done by creating a *.gitignore* file in your project.  When using Play to create your projects then an appropriate .gitignore file is created for you, with the default file and folder exclusions for your Play project.
+  
+  If you are using an editor or IDE that creates its own files and folders that you dont want to include in your project, you should create a global git ignore file in your home directory.
+  
+    ~/.gitignore_global
+
+See the [global folder of the Github gitignore repository](https://github.com/github/gitignore/tree/master/Global) for suitable global gitignore files for your development tools (eg. [Eclipse](https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore), [Emacs](https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore), [InteliJ](https://github.com/github/gitignore/blob/master/Global/IntelliJ.gitignore), [Netbeans](https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore)).
 
 
 [Back to top...](#top)
