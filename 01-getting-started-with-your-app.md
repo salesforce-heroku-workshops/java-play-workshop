@@ -64,7 +64,7 @@
 
   If there are any compilation errors you will see the result of the compilation directly in your browser.
 
-<a href="images/01x05-error-page.png" width="640"><img src="images/01x05-error-page.png"></a>
+<a href="images/01x05-play-error-page.png" width="640"><img src="images/01x05-play-error-page.png"></a>
 
 [Back to top...](#top)
 
