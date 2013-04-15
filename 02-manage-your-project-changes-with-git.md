@@ -18,11 +18,18 @@
     cd my-project-folder
     git init
 
+  You should now have an empty local git repository in which to manage your changes.  
+
+<a href="images/02x01-create-local-git-repository.png"><img src="images/02x01-create-local-git-repository.png" width="640"></a>
+
   Check this worked by viewing the current status of your git repository
 
     git status
 
  You should see a list of files that are not currently tracked by git.
+
+<a href="images/02x02-git-status-of-project.png"><img src="images/02x02-git-status-of-project.png" width="640"></a>
+
 
   Add the project files to your git repository & commit the changes:
 
@@ -30,7 +37,15 @@
     git commit -m "Initial Java Play project created"
 
 
-  You should now have a versioned project.  Any changes you now make to these project files can be tracked using *git status*.
+<a href="images/02x03-git-add-git-status.png"><img src="images/02x03-git-add-git-status.png" width="640"></a>
+
+
+  
+  Any changes you now make to these project files can be tracked using *git status*.
+
+
+<a href="images/02x04-git-commit.png"><img src="images/02x04-git-commit.png" width="640"></a>
+
 
 ## Some files dont belong in your projects
 
