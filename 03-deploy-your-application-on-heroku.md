@@ -19,11 +19,15 @@
     http://damp-sands-1586.herokuapp.com/ | git@heroku.com:damp-sands-1586.git
     Git remote heroku added
 
+<a href="images/03x01-heroku-create.png"><img src="images/03x01-heroku-create.png"></a>
+
   You will notice that a new remote repository called heroku has been added to your git settings, this is the address of the git repository at Heroku you will upload to in order to deploy your code.  
   
   To check the heroku remote was added and to see the address of the remote git repository,  you can use the standard git command:
   
     git remote -v
+
+<a href="images/03x02-git-remote-v.png"><img src="images/03x02-git-remote-v.png" width="640"></a>
 
   When you created your Heroku application, you could have choosen to specify a specific name for your application.  The name used forms part of the website address (name.herokuapp.com), so that name must be unique across all Heroku applications.
 
