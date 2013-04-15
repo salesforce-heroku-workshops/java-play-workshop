@@ -16,6 +16,7 @@ body > p {
 pre, code {
   font-size: 13px;
   font-family: Consolas,Menlo,"Liberation Mono",Courier,monospace;
+  width: 60%;
 }
 
 pre {
@@ -49,7 +50,6 @@ pre {
   padding-top: 6px;
   text-align: -webkit-auto;
   white-space: pre;
-  width: 75%;
 }
 
 code {
@@ -90,4 +90,9 @@ th
 {
 background-color:blue;
 color:white;
+}
+
+
+img {
+width: 640px;
 }
