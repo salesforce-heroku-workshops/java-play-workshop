@@ -20,7 +20,7 @@ The workshop is arranged in the following sections:
 * [Chapter 7: Developing the app: The Task model](07-developing-the-app-task-model.html)
 * [Chapter 8: Developing the app: Persisting the data](08-developing-the-app-persisting-data.html)
 * [Chapter 9: Using Heroku Postgres database](09-using-postgres-database.html)
-* [Chapter 10: ](0)
+* [Chapter 10: Releases and Rollbacks](10-releases-and-rollbacks.html)
 * [Chapter 11: ](0)
 * [Chapter 12: ](0)
 * [Chapter 13: ](0)
