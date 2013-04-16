@@ -23,7 +23,7 @@ The workshop is arranged in the following sections:
 * [Chapter 10: Releases and Rollbacks](10-releases-and-rollbacks.html)
 * [Chapter 11: Working with Heroku Logs](11-working-with-heroku-logs.html)
 * [Chapter 12: Searching logs with Papertrail add-on (optional)](12-searching-logs-with-papertrail.html)
-* [Chapter 13: ](0)
+* [Chapter 13: Adding a Staging Environment](13-adding-a-staging-environment.html)
 * [Chapter 14: ](0)
 * [Chapter 15: ](0)
 
