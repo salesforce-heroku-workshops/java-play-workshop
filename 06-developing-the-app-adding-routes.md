@@ -65,7 +65,7 @@ Now if your reload in your browser, you will see that Play cannot compile your r
 [Note: Read more about the Router and reverse router](http://www.playframework.com/documentation/2.1.0/JavaRouting).
 
 
-## Commit your changes locally
+## Commit your changes locally and deploy
 
   As we have made a significant change to the web app functionality, even though its not complete, we should commit those changes to Git.  Getting into the habit of small commits and often helps minimise any merge conflicts when we are working in teams.
   

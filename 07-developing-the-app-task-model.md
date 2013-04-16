@@ -143,7 +143,7 @@ Note: Read more about the [Form definitions](http://www.playframework.com/docume
 
 
 
-## Commit your changes locally
+## Commit your changes locally and deploy
 
   Again as we have made a significant change to the web app functionality, even though its not complete, we should commit those changes to Git.
   
