@@ -8,11 +8,11 @@
 
 ## Creating your Heroku application
 
-  Create a new heroku application in the route of the project folder
+  Create a new heroku application in the root of the project folder
 
     heroku create
 
-  You should get an output similar to the following (although you will have a uniue name for your heroku app):
+  You should get an output similar to the following (although you will have a unqiue name for your heroku app):
 
     $ heroku create
     Creating damp-sands-1586... done, stack is cedar
@@ -41,7 +41,6 @@
   Once you have an Heroku application, you can push any commited project source code to the Heroku git repository which was added when you created the application.  To check that you actually put your code into git, you can use the git log to check what was last commited.
   
     git log
-
 
 <a href="images/03x03-git-log.png"><img src="images/03x03-git-log.png"></a>
   
