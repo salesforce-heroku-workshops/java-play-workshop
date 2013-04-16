@@ -25,7 +25,7 @@ The workshop is arranged in the following sections:
 * [Chapter 12: Searching logs with Papertrail add-on (optional)](12-searching-logs-with-papertrail.html)
 * [Chapter 13: Adding a Staging Environment](13-adding-a-staging-environment.html)
 * [Chapter 14: Managing Multiple Git Repositories](14-managing-multiple-repositories.html)
-* [Chapter 15: ](0)
+* [Chapter 15: Collaborating with Github](15-collaborating-with-github.html)
 
 * [Chapter 16: Performance Monitoring with New Relic](#chapter6)
 * [Chapter 17: Searching Logs with Papertrail](#chapter7)
