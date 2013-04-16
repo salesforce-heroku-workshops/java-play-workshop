@@ -18,7 +18,7 @@ The workshop is arranged in the following sections:
 * [Chapter 5: Setting up an IDE for Play framework (optional)](05-setting-up-an-ide.html)
 * [Chapter 6: Developing the app: Adding Routes](06-developing-the-app-adding-routes.html)
 * [Chapter 7: Developing the app: The Task model](07-developing-the-app-task-model.html)
-* [Chapter 8: ](0)
+* [Chapter 8: Developing the app: Persisting the data](08-developing-the-app-persisting-data.html)
 * [Chapter 9: ](0)
 * [Chapter 10: ](0)
 * [Chapter 11: ](0)
