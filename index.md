@@ -22,7 +22,7 @@ The workshop is arranged in the following sections:
 * [Chapter 9: Using Heroku Postgres database](09-using-postgres-database.html)
 * [Chapter 10: Releases and Rollbacks](10-releases-and-rollbacks.html)
 * [Chapter 11: Working with Heroku Logs](11-working-with-heroku-logs.html)
-* [Chapter 12: ](0)
+* [Chapter 12: Searching logs with Papertrail add-on (optional)](12-searching-logs-with-papertrail.html)
 * [Chapter 13: ](0)
 * [Chapter 14: ](0)
 * [Chapter 15: ](0)
