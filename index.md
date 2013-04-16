@@ -17,7 +17,7 @@ The workshop is arranged in the following sections:
 * [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
 * [Chapter 5: Setting up an IDE for Play framework (optional)](05-setting-up-an-ide.html)
 * [Chapter 6: Developing the app: Adding Routes](06-developing-the-app-adding-routes.html)
-* [Chapter 7: ](0)
+* [Chapter 7: Developing the app: The Task model](07-developing-the-app-task-model.html)
 * [Chapter 8: ](0)
 * [Chapter 9: ](0)
 * [Chapter 10: ](0)
