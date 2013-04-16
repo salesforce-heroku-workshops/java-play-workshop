@@ -2,9 +2,6 @@
 
 # Developing the app - the Task model
 
-<a href="images/"><img src="images/"></a>
-
-
   Before we get much further with the development of our todo application, we should define what a Task looks like in our application. Create a class for it in the **app/models/Task.java** file:
 
     package models;
@@ -77,7 +74,7 @@
 
   We also imported helper._ that give us the form creation helpers, typically the form function that creates the HTML <form> with filled action and method attributes, and the inputText function that creates the HTML input given a form field.
 
-    Note: Read more about the Templating system and Forms helper.
+  Note: Read more about the [Templating system](http://www.playframework.com/documentation/2.1.0/JavaTemplates) and {Forms](http://www.playframework.com/documentation/2.1.0/JavaFormHelpers) helper.
 
 ## The task form
 
@@ -120,6 +117,9 @@ Note: Read more about the [Form definitions](http://www.playframework.com/docume
   It renders a 200 OK result filled with the HTML rendered by the index.scala.html template called with the tasks list and the task form.
 
   You can now try to access http://localhost:9000/tasks in your browser:
+
+<a href="images/07x01-play-app-task-form.png"><img src="images/07x01-play-app-task-form.png"></a>
+
 
 ## Handling the form submission
 
