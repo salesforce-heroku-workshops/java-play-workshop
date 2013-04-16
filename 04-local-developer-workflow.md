@@ -1,6 +1,6 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="top">Chapter 4: Local developer workflow</a>
+# <a id="top">Chapter 4: Developer Workflow for Git</a>
 
   Once you have created your application and deployed it on Heroku for the first time, you have a very simple deployment workflow for your projects.  Each time you make a meaningfull change to your project it is commited to your local  git repository.  When you have a one or more commits that you want to deploy, then you push them to the heroku git repository and the new version of your application is deployed.
   
@@ -15,10 +15,10 @@
 
   Lets make a simple change to the new application.  As its simple you can just use any editor you want, you dont need to set up an IDE as yet (we will do that later).
 
-  In the source code file **Application.java** change the content of the response:
+  In the source code file **app/controlers/Application.java** change the content of the response:
 
     public static Result index() {
-      return ok("Hello world");
+      return ok("Hello Heroku world");
     }
 
   With this change, the index action will now respond with a simple text/plain Hello world response. To see this change, just refresh the home page in your browser:
@@ -28,7 +28,7 @@
   But what happens when you make a mistake in your code? Let’s try removing one of the double quotes and see what happens:
 
     public static Result index() {
-      return ok("Hello world);
+      return ok("Hello Heroku world);
     }
 
 Now reload the home page in your browser:
@@ -56,4 +56,6 @@ Now reload the home page in your browser:
   
   Either refresh your browser that displays you live appliction or use `heroku open` from the command line.
 
+
+[Back to Workshop home](index.html)
 
