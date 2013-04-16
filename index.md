@@ -26,10 +26,9 @@ The workshop is arranged in the following sections:
 * [Chapter 13: Adding a Staging Environment](13-adding-a-staging-environment.html)
 * [Chapter 14: Managing Multiple Git Repositories](14-managing-multiple-repositories.html)
 * [Chapter 15: Collaborating with Github](15-collaborating-with-github.html)
-
-* [Chapter 16: Performance Monitoring with New Relic](#chapter6)
-* [Chapter 17: Searching Logs with Papertrail](#chapter7)
-* [Appendix A: Additional Resources](0A-additional-resources.md)
+* [Chapter 16: Monitoring Heroku apps](16-monitoring-heroku-apps.html)
+* [Chapter 17: Performance Monitoring with New Relic (optional)](17-monitoring-your-application-with-new-relic.html)
+* [Appendix A: Additional Resources](A1-additional-resources.md)
 
 
 [Back to top...](#top)
