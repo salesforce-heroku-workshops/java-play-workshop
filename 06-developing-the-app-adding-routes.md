@@ -2,7 +2,7 @@
 
 # Developing the app - adding routes
 
-  For our todo list application, we need a few actions and the corresponding URLs. Let’s start by defining the routes.
+  For our todo list application, we need a few actions and the corresponding URLs. We start by defining the routes for the application which drive the applications functionallity.
 
   Edit the **conf/routes** file and add the following routes:
 
