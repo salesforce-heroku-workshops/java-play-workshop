@@ -32,7 +32,7 @@
 
     web: target/start -Dhttp.port=${PORT} -DapplyEvolutions.default=true -Ddb.default.url=${DATABASE_URL} -Ddb.default.driver=org.postgresql.Driver
 
-  Or you can just download [a ready made Procfile](Procfile) if you prefer.
+  Or you can just download [a ready made Procfile](resources/Procfile) if you prefer.
 
   Note: Read more about [Deploying Play apps to Heroku](http://www.playframework.com/documentation/2.1.0/ProductionHeroku).
 
