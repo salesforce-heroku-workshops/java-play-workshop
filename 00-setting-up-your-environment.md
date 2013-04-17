@@ -32,7 +32,7 @@ Before you get started you will need to have an account with Heroku, the Heroku 
 
 ## Download & install Play framework version 2:
 
-     [Download Play 2 framework](http://www.playframework.com/download)
+[Download Play 2 framework](http://www.playframework.com/download)
 
 Download the latest 2.0 RC version and extract the archive to a location where you have both read and write access.  For example, create a ~/apps/play folder and extract the archive there.
 
