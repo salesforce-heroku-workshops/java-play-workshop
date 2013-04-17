@@ -2,14 +2,14 @@
 
 # Developing the app - Persisting the data
 
-  Now we have a Task model, its time to persist the tasks in a database to make the application useful. Let’s start by enabling a database in our application. In the **conf/application.conf** file, add:
+  Now we have a Task model, its time to persist the tasks in a database to make the application useful. Lets start by enabling a database in our application. In the **conf/application.conf** file, add:
 
     db.default.driver=org.h2.Driver
     db.default.url="jdbc:h2:mem:play"
 
 For now we will use a simple in memory database using H2. No need to restart the server, refreshing the browser is enough to set up the database.
 
-We will use EBean (Play’s default ORM) in this tutorial to query the database. So you’ll have to enable it in the **conf/application.conf** file as well:
+We will use EBean (the default Object Relational Model tool for Play framework) in this tutorial to query the database. So you’ll have to enable it in the **conf/application.conf** file as well:
 
     ebean.default="models.*"
 
