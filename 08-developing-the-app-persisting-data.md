@@ -58,7 +58,7 @@ By doing this we create an Ebean server connected to the default datasource, man
   Now you can play again with the application, creating new tasks should work.
 
 
-<a href="images/08x01-play-app-creating-tasks.png"><img src="images/08x01-play-app-creating-tasks.png></a>
+<a href="images/08x01-play-app-creating-tasks.png"><img src="images/08x01-play-app-creating-tasks.png"></a>
 
 
   Note: Read more about the [Ebean Object Relational Mapper](http://www.playframework.com/documentation/2.1.0/JavaEbean) in Play framework.
