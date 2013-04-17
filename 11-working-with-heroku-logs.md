@@ -58,6 +58,8 @@ Example:
   
   If you need to keep you logs around for more time, there are several add-ons that will persist your logs.  This can be a requirement if your company works in a very regulated industry.
   
+<a href="images/11x01-heroku-addons-logging.png"><img src="images/11x01-heroku-addons-logging.png"></a>  
+  
   If you are also experiencing performance problems, having the logs around can help highlight issues with your application.  Intermittent problems are particularly hard to find, so this may require looking for patterns over a longer period of time.
   
   Running anaysis and reporting tools over your logs can also give you insight into your customer activitiy and relavite performance of your application.  This information can be used to help you scale your application appropriatly.  Remember that you can scale down your app just as easily as scalling up and the benefit of a cloud platform is that you do no need to pay for resources you dont want.
