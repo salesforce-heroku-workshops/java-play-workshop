@@ -24,7 +24,7 @@
 
   Then import the application into your Workspace with the **File/Import/General/Existing project…** menu (compile your project first).
 
-<a href="images/05x01-play-eclipse-project.png"><img src="05x01-play-eclipse-project.png"></a>
+<a href="images/05x01-play-eclipse-project.png"><img src="images/05x01-play-eclipse-project.png"></a>
 
 ### Using JPDA
 
