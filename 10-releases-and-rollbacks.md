@@ -17,7 +17,7 @@
 
   Your release history should look similar to the following:
   
-  
+<a href="images/10x01-play-app-heroku-releases.png"><img src="images/10x01-play-app-heroku-releases.png"></a>  
   
   Notice that each relase is related to a commit number used in Git.  This commit number gives you traceabitliy between your version control system and your deployed appliations.
   
@@ -28,16 +28,12 @@
 
 
 
-
 ## What triggers a new release
 
   It is important to understand what triggers a new release on Heroku.  As well as using git push to upload new commits, the following actions also create a new release.
   
-  Updating environment variables
-  
-  Adding an Heroku add-on
-  
-  ???
+* Updating environment variables
+* Adding an Heroku add-on
 
 
 ## Rolling back a release 
@@ -61,19 +57,7 @@
   
   This gives you time to go and fix the root cause of the problem.  When you have fixed the problem and pushed the code to create a new release, you will be running on v27.
   
-  
-  
-  
-  
-  
-
-
 *Note: A rolback should be considered a temporary fix to the problem.  You should resolve the underlying cause quickly and push that change to Heroku.  If a new release is triggered before you commit a proper fix then the original problem may occur again as you are deploying from an unchanged code base.* 
-
-
-
-
-[TODO: rollbacks and database ?  What are the best practices in managing data when you rollback ?]
 
 
 [Back to Workshop home](index.html)
