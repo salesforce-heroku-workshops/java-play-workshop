@@ -21,14 +21,22 @@ Before you get started you will need to have an account with Heroku, the Heroku 
 
 ## Java SE 6 or greater:
 
-  1. Check wich version of Java you are running on the command line using `java -version`
+  1. As you are developing a Java application, you need the Java Development Kit (JDC) which has the command for the Java compiler `javac`.  Check you have java and javac installed using the following commands:
 
-        $ java -version
-        java version "1.6.0_37"
-        Java(TM) SE Runtime Environment (build 1.6.0_37-b06-434-10M3909)
-        Java HotSpot(TM) 64-Bit Server VM (build 20.12-b01-434, mixed mode)
+    $ java -version
+    java version "1.6.0_37"
+    Java(TM) SE Runtime Environment (build 1.6.0_37-b06-434-10M3909)
+    Java HotSpot(TM) 64-Bit Server VM (build 20.12-b01-434, mixed mode)
 
-    [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+    $ javac -version
+    javac 1.6.0_27
+
+
+  If you do not have javac then you need to download the Java Standard Edition JDK from Oracle:
+  
+  [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+
 
 ## Download & install Play framework version 2:
 
