@@ -33,7 +33,7 @@
 
 Now reload the home page in your browser:
 
-<a href="04x01-play-error-hello-world.png"><img src="04x01-play-error-hello-world.png"></a>
+<a href=images/04x01-play-error-hello-world.png"><img src="images/04x01-play-error-hello-world.png"></a>
 
   Fix the error by adding back in the double quote you removed and save the file.  Check your application is still working by refreshing the browser.
 
