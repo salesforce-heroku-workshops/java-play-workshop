@@ -58,6 +58,13 @@
 <a href="images/01x04-play-app-running-in-browser.png"><img src="images/01x04-play-app-running-in-browser.png" width="640"></a>
 
 
+  If you have a conflict on port 9000, you can change the port play runs on using the play console.  In the console, use the following command to run on port 9999:
+  
+    [todo-app] $ run 9999
+
+  Now your play application will run from port 9999 from within the Play console.
+  
+
 ## Play development mode
 
   Your application is running in development mode with the auto-reload feature enabled.  Each request you make to your Play app will check your project and recompile any sources that have changed. If needed the application will restart automatically.
