@@ -64,7 +64,12 @@ Example:
   
   Running anaysis and reporting tools over your logs can also give you insight into your customer activitiy and relavite performance of your application.  This information can be used to help you scale your application appropriatly.  Remember that you can scale down your app just as easily as scalling up and the benefit of a cloud platform is that you do no need to pay for resources you dont want.
 
-  
+## Additional resources
+
+[Heroku logging](https://devcenter.heroku.com/articles/logging)
+[Getting started with Logly](https://devcenter.heroku.com/articles/loggly)
+ 
+ 
 [Back to Workshop home](index.html)
 
 
