@@ -66,8 +66,8 @@ Example:
 
 ## Additional resources
 
-[Heroku logging](https://devcenter.heroku.com/articles/logging)
-[Getting started with Logly](https://devcenter.heroku.com/articles/loggly)
+* [Heroku logging](https://devcenter.heroku.com/articles/logging)
+* [Getting started with Logly](https://devcenter.heroku.com/articles/loggly)
  
  
 [Back to Workshop home](index.html)
