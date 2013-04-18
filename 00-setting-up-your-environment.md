@@ -51,6 +51,23 @@
   If you have only one public key, this command will just add it to heroku.  If you have more than one pubic key then heroku will prompt you as to which key you want to add.
   
 
+# Setting up Github
+
+  When you install the Heroku toolbelt it includes a Git client.  You can also use any other git client you want, either command line or graphical tool.
+  
+  You do need to identify yourself to Git before carrying out any commits to your local repository.  You must specify git user.email and optionally specify git user.name.
+  
+  To add your git name and email, either edit the **~/.gitconfig** file or run the following two commands:
+
+    git config --global user.name "your name"
+    git config --global user.email "your.name@domain.com"
+
+To check what has already been added to Git (some gui clients add information), you can list all the current configuration entries:
+
+    git config --list
+
+
+
 ## Java SE 6 or greater (application requirement)
 
   As you are building a Java pplication you need to have the compiler that comes with the Java Development Kit (JDK) installed.  If you are not sure, you can test the java compiler is installed using the command for the Java compiler:
