@@ -21,16 +21,35 @@
   
   When you created your account, the Heroku website directs you to download the Heroku toolbelt.  It is available from the [Heroku toolbelt website](http://toolbelt.heroku.com) if you do not have it on your development machine.
   
-  Install the Heroku toolbelt version for your operating system.  You can test it is installed by using the command `heroku` which will list out the Heroku tasks you can do from the command line.
+  Install the Heroku toolbelt version for your operating system and test it is installed by using the following command 
+  
+    heroku
+    
+  If the Heroku toolbelt is correctly installed, you will see a list of the Heroku tasks you can carry out.
 
 
 ## Setting up secure access to Heroku (public key)
   
-  When you deploy your application, you use a secure shell (SSH) connection to Heroku.  This SSH connection requires you to add a public key (RSA key) to your Heroku account.  Your public key identifies you to Heroku using the email address you used when creating your account.  If you create your own key, ensure that the public key has your email as a comment.
+  When you deploy your application to Heroku it uses a secure shell (SSH) connection.  This ensures your code is transfered securly and allows a secure way for Heroku to confirm you are authorised to access the application on Heroku.  This SSH connection requires you to add a public key to your Heroku account.
+  
+  The first time you work with Heroku you can use the following command to create a public key for you or upload any existing public key you may have:
+  
+    heroku login
+  
+  If you create your own key, ensure that the public key has your email as a comment.  For example, to create a key with the email address foo@bar.com you use the following command:
+  
+    ssh-keygen -t rsa -C "foo@bar.com"
 
-  When you run `heroku login` to connect to Heroku it will detect any public key you already have and upload it if possible to Heroku.  If you do not have a public key then heroku will  created for you.
-
-
+  To check what keys have been added to your Heroku account, using the following command:
+  
+    heroku keys
+    
+  If you need to add a new key to heroku, use the following command:
+  
+    heroku keys:add 
+    
+  If you have only one public key, this command will just add it to heroku.  If you have more than one pubic key then heroku will prompt you as to which key you want to add.
+  
 
 ## Java SE 6 or greater (application requirement)
 
@@ -49,7 +68,7 @@
 
 Download the [latest version of the Play framework](http://www.playframework.com/download) and extract the archive to a location where you have both read and write access.  For example, create a ~/apps/play folder and extract the archive there.
 
-*Note: Play updates files within its own folder, so on MacOSX and Ubuntu avoid installing play in /opt, /usr/local or anywhere else you’d need special permission to write to unless you also update the play folder write permissions.*
+*Note: Play updates files within its own folder, so on MacOSX and Ubuntu avoid installing play in /opt, /usr/local or anywhere else you would need special permission to write to unless you also update the play folder write permissions.*
   
 
 ## Add Play framework to your executable path
