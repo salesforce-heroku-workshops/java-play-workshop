@@ -62,11 +62,11 @@
     git config --global user.name "your name"
     git config --global user.email "your.name@domain.com"
 
-To check what has already been added to Git (some gui clients add information), you can list all the current configuration entries:
+  To check what has already been added to Git (some gui clients add information), you can list all the current configuration entries:
 
     git config --list
 
-
+  If you are still discovering how to use Git, take a look at the seperate Git and Github tutorial](http://git-and-github-workshop.herokuapp.com/).
 
 ## Java SE 6 or greater (application requirement)
 
