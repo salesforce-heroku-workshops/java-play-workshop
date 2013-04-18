@@ -1,6 +1,6 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="top">Chapter : Adding a staging environment</a>
+# <a id="top">Chapter 13: Adding a staging environment</a>
 
   In some situations you will want to test your application as a working website or service before actually deploying it to production.  It is a simple matter to create additional Heroku applications that will work from the same codebase.
 
