@@ -2,21 +2,35 @@
 
 # <a id="top">Setting up your environment</a>
 
-Before you get started you will need to have an account with Heroku, the Heroku toolbelt and a working SSH connection to Heroku:
+  Before you get started developing the application you will deploy on Heroku, you need to have an Heroku account, have install the Heroku toolbelt and a working Internet connection to Heroku.
 
 ## Create an Heroku Account (if you dont already have one)
+
+  You can create a free account at the Heroku website.  You need an account in order to deploy and manage the applications on Heroku.
+
   1. In your browser navigate to: [https://heroku.com/signup](https://heroku.com/signup)
   2. Enter your email address
   3. Select `Sign Up`
   4. Check your email and navigate to the verification page
-  5. On the command line, run `heroku login` to connect to Heroku and upload your public key.  If you do not have a public key then one will be created for you.
+  5. Enter a suitable password for your account
 
-## Check network (SSH) access to heroku.com
-  1. For Linux or MacOSX, either use an SSH client or `telnet` to verify the network connectin by running one of the following in a command prompt / terminal.  On Microsoft Windows you can use a tool called [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html):
 
-            ssh -T heroku.com 22
+## Installing the Heroku Toolbelt
 
-  2. If the connection is refused then you will need to ask your network administrators to open up SSH access to `heroku.com` (port 22).
+  The Heroku toolbelt is a command line application for creating and managing your applications on Heroku.  Its a really useful tool.  The toolbelt also contains a Git client, although you can use your own Git client if you prefer.
+  
+  When you created your account, the Heroku website directs you to download the Heroku toolbelt.  It is available from the [Heroku toolbelt website](http://toolbelt.heroku.com) if you do not have it on your development machine.
+  
+  Install the Heroku toolbelt version for your operating system.  You can test it is installed by using the command `heroku` which will list out the Heroku tasks you can do from the command line.
+
+
+## Setting up secure access to Heroku (public key)
+  
+  When you deploy your application, you use a secure shell (SSH) connection to Heroku.  This SSH connection requires you to add a public key (RSA key) to your Heroku account. deploy applications your need to add you public key to Heroku.  This identifies you to Heroku using the email address you used when creating your account.  If you create your own key, it is therefore important to ensure that the public key has your email as a comment.
+
+  When you run `heroku login` to connect to Heroku it will detect any public key you already have and upload it to Heroku.  If you do not have a public key then one will be created for you.
+
+
 
 
 ## Java SE 6 or greater:
