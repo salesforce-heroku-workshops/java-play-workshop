@@ -1,9 +1,8 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="chapter7">Chapter 7: Searching Logs with Papertrail</a>
+# <a id="top">Chapter 12: Searching Logs with Papertrail</a>
 
-
-Goals: This chapter will teach you how to add the Paptertrail Heroku Add-on to your application.  Papertrail provides a robust web interface for searching your application's logs and setting alerts for specific searches.
+  **Goal**: This chapter will teach you how to add the Paptertrail Heroku Add-on to your application.  Papertrail provides a robust web interface for searching your application's logs and setting alerts for specific searches.
 
 To add the Papertrail Add-on:
 
