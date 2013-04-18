@@ -45,13 +45,12 @@
   [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 
-## Download & install Play framework version 2:
+## Download & install Play framework version 2
 
-   [Download Play 2 framework](http://www.playframework.com/download)
-
-Download the latest version of the Play framework and extract the archive to a location where you have both read and write access.  For example, create a ~/apps/play folder and extract the archive there.
+Download the [latest version of the Play framework](http://www.playframework.com/download) and extract the archive to a location where you have both read and write access.  For example, create a ~/apps/play folder and extract the archive there.
 
 *Note: Play updates files within its own folder, so on MacOSX and Ubuntu avoid installing play in /opt, /usr/local or anywhere else you’d need special permission to write to unless you also update the play folder write permissions.*
+  
 
 ## Add Play framework to your executable path
 
