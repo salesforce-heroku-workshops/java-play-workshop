@@ -8,13 +8,12 @@
 
   You can use the *play* command to create a new application for you, using a standard structure (just like other build tools like Maven).  Play actually uses a build tool called Simple Build Tool (SBT). 
   
-  When you create a new play application, it creates a new folder with the name you specify as part of the command.  So change to a suitable folder that is not already under version control or part of any other project, eg *~/projects*. 
-  
+  When you create a new play application, it creates a new folder with the name you specify as part of the command.  So change to a suitable folder that is not already under version control or part of any other project, eg *~/projects*.   
   Then use the command line to create a new play application called *todolist* using the command:
   
     play new todo-app
 
-  The Play tool will ask you if you want to create either a Scala or Java application. In this case choose to create a Java application project template.
+  The Play tool will ask you if you want to create either a Scala or Java application. In this case choose to **create a Java application project template**.
 
 <a href="images/01x01-play-new-todo-app.png"><img src="images/01x01-play-new-todo-app.png" width="640"></a>
 
@@ -38,11 +37,11 @@
 
 ## Run the play application
 
-  Once you have an application created, you can run the Play console. Go to the todo-app folder that has been created for your project and run the command:
+  Once you have created your play application, you can run it using the Play console. Go to the todo-app folder that has been created for your project and run the command:
 
         play
 
-  This launches the Play console and it reads the configuration of your Play project. 
+  This launches the Play console which reads the configuration of your Play project. 
 
 <a href="images/01x02-play-console.png"><img src="images/01x02-play-console.png" width="640"></a>
   
@@ -58,7 +57,9 @@
 <a href="images/01x04-play-app-running-in-browser.png"><img src="images/01x04-play-app-running-in-browser.png" width="640"></a>
 
 
-  If you have a conflict on port 9000, you can change the port play runs on using the play console.  In the console, use the following command to run on port 9999:
+## Port conflict ?
+
+  If you have a conflict on port 9000 (you have something else running that is using the port), you can change the port play runs on using the play console.  In the console, use the following command to run on port 9999:
   
     [todo-app] $ run 9999
 
@@ -67,13 +68,12 @@
 
 ## Play development mode
 
-  Your application is running in development mode with the auto-reload feature enabled.  Each request you make to your Play app will check your project and recompile any sources that have changed. If needed the application will restart automatically.
+  Your application is running in development mode with the auto-reload feature enabled.  Each request you make to your Play app will check your project and recompile any sources that have changed. If needed the application will restart automatically.  This provides a very rapid way to develop your application and get fast feedback on your project code.
 
   If there are any compilation errors you will see the result of the compilation directly in your browser.
 
 <a href="images/01x05-play-error-page.png" width="640"><img src="images/01x05-play-error-page.png" width="640"></a>
 
+[Next](02-manage-your-project-changes-with-git.html)
 [Back to top...](#top)
-
 [Back to Workshop Home](/index.html)
-
