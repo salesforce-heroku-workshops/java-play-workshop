@@ -23,9 +23,9 @@
 
   The play new command creates a new directory todo-app with the following structure:
 
-  `app` contains the application’s core, split between models, controllers and views directories. This is the directory where .java source files live.
+  `app` contains the application's core, split between models, controllers and views directories. This is the directory where .java source files live.
 
-  `conf` contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationaligzation.
+  `conf` contains all the application's configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationaligzation.
 
   `project` contains the build scripts. The build system is based on sbt. But a new play application comes with a default build script that will just works fine for our application.
 
@@ -33,7 +33,7 @@
 
   `test` contains all the application tests. Tests can be written as JUnit tests.
 
-  To understand the structure in more depth, please see the official documentation on the [Anatomy of a Play application](http://www.playframework.com/documentation/2.1.0/Anatomy)
+  To understand the structure in more depth, please see the official documentation on the [Anatomy of a Play application](http://www.playframework.com/documentation/2.1.1/Anatomy)
 
 
 ## Run the play application
@@ -46,7 +46,7 @@
 
 <a href="images/01x02-play-console.png"><img src="images/01x02-play-console.png" width="640"></a>
   
-  There are several things you can do from the Play console, but lets start by running the application. From the *Play console prompt*, type run:
+  There are several things you can do from the Play console, but let's start by running the application. From the *Play console prompt*, type run:
 
         [todo-app] $ run
 

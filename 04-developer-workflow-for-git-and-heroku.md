@@ -15,7 +15,7 @@
 
   To demonstrate this workflow around Git and Heroku, lets make a simple change to the new application.  As its simple you can just use any editor you want, you dont need to set up an IDE as yet (we will do that later).
 
-  In the source code file **app/controlers/Application.java** change the content of the response:
+  In the source code file **app/controllers/Application.java** change the content of the response:
 
     public static Result index() {
       return ok("Hello Heroku world");
@@ -25,7 +25,7 @@
 
   Assuming you still have your play console running the app (chapter01) there is no need to compile the code yourself or restart the server to see the modification.  Play automatically reloaded when a change is detected. 
   
-  But what happens when you make a mistake in your code? Let’s try removing one of the double quotes and see what happens:
+  But what happens when you make a mistake in your code? Let's try removing one of the double quotes and see what happens:
 
     public static Result index() {
       return ok("Hello Heroku world);
@@ -43,7 +43,7 @@ Now reload the home page in your browser:
   As you have made a change to your project, commit that change so that its under version control by git.  
 
     git add .
-    git commit -m "result returning hellow world"
+    git commit -m "result returning hello world"
 
 
 ## Push your changes to Heroku

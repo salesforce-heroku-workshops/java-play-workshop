@@ -17,20 +17,20 @@
 
 ## Installing the Heroku Toolbelt
 
-  The Heroku toolbelt is a command line application for creating and managing your applications on Heroku.  Its a really useful tool.  The toolbelt also contains a Git client, although you can use your own Git client if you prefer.
+  The Heroku toolbelt is a command line application for creating and managing your applications on Heroku.  It's a really useful tool.  The toolbelt also contains a Git client, although you can use your own Git client if you prefer.
   
-  When you created your account, the Heroku website directs you to download the Heroku toolbelt.  It is available from the [Heroku toolbelt website](http://toolbelt.heroku.com) if you do not have it on your development machine.
+  When you created your account, the Heroku website directs you to download the Heroku toolbelt.  It is available from the [Heroku toolbelt website](https://toolbelt.heroku.com/) if you do not have it on your development machine.
   
   Install the Heroku toolbelt version for your operating system and test it is installed by using the following command 
   
     heroku
     
-  If the Heroku toolbelt is correctly installed, you will see a list of the Heroku tasks you can carry out.
+  If the Heroku toolbelt is correctly installed, you will see a list of the commands you can run.
 
 
 ## Setting up secure access to Heroku (public key)
   
-  When you deploy your application to Heroku it uses a secure shell (SSH) connection.  This ensures your code is transfered securly and allows a secure way for Heroku to confirm you are authorised to access the application on Heroku.  This SSH connection requires you to add a public key to your Heroku account.
+  When you deploy your application to Heroku it uses a secure shell (SSH) connection.  This ensures your code is transfered securely and allows a secure way for Heroku to confirm you are authorised to access the application on Heroku.  This SSH connection requires you to add a public key to your Heroku account.
   
   The first time you work with Heroku you can use the following command to create a public key for you or upload any existing public key you may have:
   
@@ -48,7 +48,7 @@
   
     heroku keys:add 
     
-  If you have only one public key, this command will just add it to heroku.  If you have more than one pubic key then heroku will prompt you as to which key you want to add.
+  If you have only one public key, this command will just add it to heroku.  If you have more than one pubic key then the toolbelt will prompt you as to which key you want to add.
   
 
 # Setting up Github
@@ -70,7 +70,7 @@ To check what has already been added to Git (some gui clients add information), 
 
 ## Java SE 6 or greater (application requirement)
 
-  As you are building a Java pplication you need to have the compiler that comes with the Java Development Kit (JDK) installed.  If you are not sure, you can test the java compiler is installed using the command for the Java compiler:
+  As you are building a Java application you need to have the compiler that comes with the Java Development Kit (JDK) installed.  If you are not sure, you can test the java compiler is installed using the command for the Java compiler:
 
     $ javac -version
     javac 1.6.0_27
