@@ -2,11 +2,11 @@
 
 # <a id="top">Heroku Workshop - Java & Play framework</a>
 
-This workshop will give you experience deploying and managing an application on Heroku, an elastic polyglot platform.
+This workshop will give you experience deploying and managing an application on [Heroku](https://www.heroku.com), a cloud application platform.
 
-In the workshop you will building a relatively simple Java application using the Play framework.  You will version the source code and push your code to Heroku using Git.
+In the workshop you will building a relatively simple Java application using the Play framework, and deploy the application to Heroku.
 
-For developers, the best way to understand the value of Heroku is to use it in a project.  If you want to know more about the platform, please see the quick [overview of Heroku](what-is-heroku.md) and visit [How it Works]() on the [heroku website](http://www.heroku.com).
+For developers, the best way to understand the value of Heroku is to use it in a project.  If you want to know more about the platform, please see the quick [overview of Heroku](what-is-heroku.md) and visit [How it Works](https://www.heroku.com/how) or the [Heroku Dev Center](https://devcenter.heroku.com).
 
 The workshop is arranged in the following sections:
 

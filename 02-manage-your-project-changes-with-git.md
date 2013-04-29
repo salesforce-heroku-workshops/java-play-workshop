@@ -47,13 +47,13 @@
 <a href="images/02x04-git-commit.png"><img src="images/02x04-git-commit.png" width="640"></a>
 
 
-## Some files dont belong in your projects
+## Some files don't belong in your projects
 
   You can tell git to not include certain files, folders and name patterns, so when you do a *git add .* then these files wont be added by mistake.
   
   This is done by creating a *.gitignore* file in your project.  When using Play to create your projects then an appropriate .gitignore file is created for you, with the default file and folder exclusions for your Play project.
   
-  If you are using an editor or IDE that creates its own files and folders that you dont want to include in your project, you should create a global git ignore file in your home directory.
+  If you are using an editor or IDE that creates its own files and folders that you don't want to include in your project, you should create a global git ignore file in your home directory.
   
     ~/.gitignore_global
 
