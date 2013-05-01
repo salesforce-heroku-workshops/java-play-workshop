@@ -2,11 +2,11 @@
 
 # <a id="top">Chapter 1: Create a new application using play</a>
 
-**Goal:** In this chapter you will learn how to create a play app using the command line.  We will also show you the basic structure of a play application.
+**Goal:** In this chapter you will learn how to create a play app using the command line and the basic structure of a play application.
 
 ## Create a new play application
 
-  You can use the *play* command to create a new application for you, using a standard structure (just like other build tools like Maven).  Play actually uses a build tool called Simple Build Tool (SBT).
+  You can use the *play* command to create a new application for you, using a standard structure (just like other build tools such as Maven).  Play actually uses a build tool called [Simple Build Tool (SBT)](http://www.scala-sbt.org/).
 
   When you create a new play application, it creates a new folder with the name you specify as part of the command.  So change to a suitable folder that is not already under version control or part of any other project, eg *~/projects*.
 
@@ -23,11 +23,11 @@
 
   The play new command creates a new directory todo-app with the following structure:
 
-  `app` contains the application's core, split between models, controllers and views directories. This is the directory where .java source files live.
+  `app` contains the core part of the application, split between models, controllers and views directories. This is the directory where .java source files live.
 
-  `conf` contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationaligzation.
+  `conf` contains all the configuration files for the application, especially the main application.conf file, the routes definition files and the messages files used for internationaligzation.
 
-  `project` contains the build scripts. The build system is based on sbt. But a new play application comes with a default build script that will just works fine for our application.
+  `project` contains the build scripts. The build system is based on [Simple Build Tool (SBT)](http://www.scala-sbt.org/). But a new play application comes with a default build script that will just works fine for our application.
 
   `public` contains all the publicly available resources, which includes JavaScript, stylesheets and images directories.
 
@@ -69,7 +69,7 @@
 
   Your application is running in development mode with the auto-reload feature enabled.  Each request you make to your Play app will check your project and recompile any sources that have changed. If needed the application will restart automatically.
 
-  If there are any compilation errors you will see the result of the compilation directly in your browser.
+  If there are compilation errors you will see them directly in your browser.
 
 <a href="images/01x05-play-error-page.png" width="640"><img src="images/01x05-play-error-page.png" width="640"></a>
 
