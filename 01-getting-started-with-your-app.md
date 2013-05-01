@@ -6,12 +6,12 @@
 
 ## Create a new play application
 
-  You can use the *play* command to create a new application for you, using a standard structure (just like other build tools like Maven).  Play actually uses a build tool called Simple Build Tool (SBT). 
-  
-  When you create a new play application, it creates a new folder with the name you specify as part of the command.  So change to a suitable folder that is not already under version control or part of any other project, eg *~/projects*. 
-  
+  You can use the *play* command to create a new application for you, using a standard structure (just like other build tools like Maven).  Play actually uses a build tool called Simple Build Tool (SBT).
+
+  When you create a new play application, it creates a new folder with the name you specify as part of the command.  So change to a suitable folder that is not already under version control or part of any other project, eg *~/projects*.
+
   Then use the command line to create a new play application called *todolist* using the command:
-  
+
     play new todo-app
 
   The Play tool will ask you if you want to create either a Scala or Java application. In this case choose to create a Java application project template.
@@ -23,7 +23,7 @@
 
   The play new command creates a new directory todo-app with the following structure:
 
-  `app` contains the application’s core, split between models, controllers and views directories. This is the directory where .java source files live.
+  `app` contains the application's core, split between models, controllers and views directories. This is the directory where .java source files live.
 
   `conf` contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationaligzation.
 
@@ -42,10 +42,10 @@
 
         play
 
-  This launches the Play console and it reads the configuration of your Play project. 
+  This launches the Play console and it reads the configuration of your Play project.
 
 <a href="images/01x02-play-console.png"><img src="images/01x02-play-console.png" width="640"></a>
-  
+
   There are several things you can do from the Play console, but lets start by running the application. From the *Play console prompt*, type run:
 
         [todo-app] $ run
@@ -59,11 +59,11 @@
 
 
   If you have a conflict on port 9000, you can change the port play runs on using the play console.  In the console, use the following command to run on port 9999:
-  
+
     [todo-app] $ run 9999
 
   Now your play application will run from port 9999 from within the Play console.
-  
+
 
 ## Play development mode
 
@@ -76,4 +76,3 @@
 [Back to top...](#top)
 
 [Back to Workshop Home](/index.html)
-
