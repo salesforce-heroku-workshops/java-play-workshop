@@ -55,7 +55,73 @@ By doing this we create an Ebean server connected to the default datasource, man
       find.ref(id).delete();
     }
 
+
+
+## Setting up the H2 database
+
+In conf/application.conf uncomment out the following lines
+
+
+    # Database configuration
+    # ~~~~~
+    # You can declare as many datasources as you want.
+    # By convention, the default datasource is named `default`
+    #
+    db.default.driver=org.h2.Driver
+    db.default.url="jdbc:h2:mem:play"
+    # db.default.user=sa
+    # db.default.password=""
+    #
+
+
+  Once you save the changes to your file and refresh the browser, the development environment will now generate a script and populate the database with a table to store your tasks.
+
+You can see this script in **conf/evolutions/default/1.sql**
+
+
   Now you can play again with the application, creating new tasks should work.
+
+
+  Note: In the production environment, like the one you deploy on Heroku, the evolutions database script will not ru (running scripts could over-write production data, so its off by default).  To run the database script in your Heroku environment you need to add the options
+  
+  -DapplyEvolutions.default=true
+
+From Heroku Logs:  
+  
+  2013-10-11T16:34:01.655942+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/play-todo-postgres -Dhttp.port=23040`
+2013-10-11T16:34:02.777595+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS:  -Djava.rmi.server.useCodebaseOnly=true
+2013-10-11T16:34:03.417940+00:00 app[web.1]: Play server process ID is 2
+2013-10-11T16:34:05.255570+00:00 app[web.1]: [info] play - database [default] connected at jdbc:h2:mem:play
+2013-10-11T16:34:05.981008+00:00 app[web.1]: label                     varchar(255),
+2013-10-11T16:34:05.981008+00:00 app[web.1]: [warn] play - Your production database [default] needs evolutions! 
+2013-10-11T16:34:05.981008+00:00 app[web.1]: # --- Rev:1,Ups - 2af6baa
+2013-10-11T16:34:05.981008+00:00 app[web.1]: create table task (
+2013-10-11T16:34:05.981008+00:00 app[web.1]: id                        bigint not null,
+2013-10-11T16:34:05.981008+00:00 app[web.1]: constraint pk_task primary key (id))
+2013-10-11T16:34:05.981008+00:00 app[web.1]: ;
+2013-10-11T16:34:05.981008+00:00 app[web.1]: 
+2013-10-11T16:34:05.981008+00:00 app[web.1]: create sequence task_seq;
+2013-10-11T16:34:05.981008+00:00 app[web.1]: 
+2013-10-11T16:34:05.982385+00:00 app[web.1]: [warn] play - Run with -DapplyEvolutions.default=true if you want to run them automatically (be careful)
+2013-10-11T16:34:05.985048+00:00 app[web.1]: Oops, cannot start the server.
+2013-10-11T16:34:05.985048+00:00 app[web.1]: @6g034o2jb: Database 'default' needs evolution!
+2013-10-11T16:34:05.985410+00:00 app[web.1]: 	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:484)
+
+
+[insert image instead of text]
+
+
+## Running the Database Script to create the table in H2 on Heroku
+
+  Create a text file called Procfile.  This file should not have any file extension. 
+  
+  Edit the Procfile and add the following line to define how the app is run, along with the database script to create the table
+  
+  web: target/universal/stage/bin/play-todo-postgres -Dhttp.port=$PORT -DapplyEvolutions.default=true
+  
+  
+
+
 
 
 <a href="images/08x01-play-app-creating-tasks.png"><img src="images/08x01-play-app-creating-tasks.png"></a>
