@@ -16,7 +16,7 @@
   Add the required driver to our application dependencies in the **project/Build.scala** file:
 
     val appDependencies = Seq(
-      "postgresql" % "postgresql" % "8.4-702.jdbc4"
+      "postgresql" % "postgresql" % "9.1-901-1.jdbc4"
     )
 
   Note: Read more about [Dependencies management](http://www.playframework.com/documentation/2.1.0/SBTDependencies) in the Play framework.
